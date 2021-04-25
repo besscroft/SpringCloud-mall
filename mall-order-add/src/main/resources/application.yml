@@ -5,7 +5,7 @@ spring:
       name: mall-order-add
       label: Dev
   rabbitmq:
-    host: 47.100.38.50
+    host: 127.0.0.1
     port: 5672
     username: test1
     password: test666
