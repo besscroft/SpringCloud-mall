@@ -4,10 +4,10 @@ spring:
   application:
     name: mall-admin-auth
   datasource:
-    url: jdbc:mysql://47.100.38.50:3306/mall?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/mall?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
-    username: mall
-    password: jLfmazj2MzbGFR5a
+    username: root
+    password: 666666
     type: com.alibaba.druid.pool.DruidDataSource
     # 数据库连接池配置
     druid:
